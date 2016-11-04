@@ -1,0 +1,10 @@
+{
+    "name": "lesps-bundle",
+    "private": true,
+    "version": "0.0.1",
+    "main": "lesps-bundle",
+    "dependencies": {
+        "framework-core" : "^2",
+        "framework-home" : "^1"
+    }
+}
