@@ -6,12 +6,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
 
-class ContentExplorer extends Module {
+class ExperienceModule extends Module {
 
     initialize() {
-        this.path   = 'content-explorer';
+        this.path   = 'experience-module';
         this.icon   = 'icon-FPO_square';
-        this.title  = 'Content Explorer';
+        this.title  = 'Experience Module';
 
         this.routes = {
             '/' : function(){}
@@ -23,10 +23,10 @@ class ContentExplorer extends Module {
 
     render() {
         ReactDOM.render (
-            <div className="content-explorer">Content Explorer</div>
+            <div className="experience-module">Experience Module</div>
             , this.element );
     }
 
 }
 
-export default ContentExplorer;
+export default ExperienceModule;
